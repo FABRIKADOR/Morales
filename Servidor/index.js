@@ -5,8 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cors());
-app.use(require('./routes/alumnos'));
-app.use(require('./routes/carreras'));
+app.use(require('./routes/obrasarte'));
 app.use(require('./routes/artistas'));
 
 const PORT = process.env.PORT;

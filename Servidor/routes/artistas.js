@@ -64,14 +64,14 @@ const delArtista = (request, response) => {
     });
 };
 
-//ruta
+
 app.route("/artistas").get(getArtistas);
 app.route("/artistas").post(postArtista);
 app.route("/artistas/:id").delete(delArtista);
 module.exports = app;
 
 
-/*aqui va mi primer post*/
+
 
 
 
